@@ -36,6 +36,5 @@ It takes [Cycle.js' hungarian notation `$`](http://cycle.js.org/basic-examples.h
 The above is more convenient than writing:
 ```js
 var stateAlt$ = xs.combine(a$, b$, c$).map(([a, b, c]) => ({a, b, c}));
-
-## Credit: Code, idea and README example pulled from [`combineLatestObj`](https://github.com/staltz/combineLatestObj)
 ```
+_Credit: Code and README example pulled from [`combineLatestObj`](https://github.com/staltz/combineLatestObj)_
