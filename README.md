@@ -19,7 +19,7 @@ Make an observable which is the combination of them, bundled as an object.
 import combineObj from 'xs-combine-obj';
 
 const state$ = combineObj({a$, b$, c$});
-// or const state$ = combineLatestObj({a: a$, b: b$, c: c$});
+// or const state$ = combineObj({a: a$, b: b$, c: c$});
 
 state$.addListener({
   next: x => console.dir(x),
