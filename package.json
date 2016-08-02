@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/ntilwalli/xsCombineObj.git"
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A convenient flavor of xs.combine",
   "main": "dist/index.js",
   "scripts": {
